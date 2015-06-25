@@ -1,0 +1,9 @@
+2015-05-28    <dyuret@ku.edu.tr>
+
+	* note: Julia array hierarchy:
+
+	Array <: DenseArray <: AbstractArray <: Any
+	SparseMatrixCSC <: AbstractSparseArray <: AbstractArray <: Any
+	CudaArray <: AbstractCudaArray <: Any
+	CudaPitchedArray <: AbstractCudaArray <: Any
+	HostArray <: AbstractArray <: Any
